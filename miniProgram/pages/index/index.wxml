@@ -1,0 +1,50 @@
+<!--input.wxml-->
+
+ <!-- <view     class = "userinfo">
+
+ <view   bindtap='tap'class = "userinfo">  show!</view>
+ <view   bindtap='tapOne'class = "userinfo"> close!</view>
+  
+  </view> 
+    -->
+
+<view class="container"  hidden="{{}}" >
+  <!-- <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+   -->
+   <!--the first-->
+    <view id='firstv'>
+    
+   <!--the left-->
+      <view class='flv'>剩余<text class='flvtText'>{{second}}</text>秒
+      </view> 
+      <!--the middle -->
+      <view class='flv'>你口算对<text class='fmdText'>{{rightCount}}</text>题
+      </view> 
+  <!--the right -->
+       <view class='frv'>剩余<text>{{textCount}}</text>题
+       </view>
+   
+    </view>
+
+  <!--the second-->
+  <view class='secondv'>
+    <text class='textSs' >{{mathNumTwo}}{{methodChar}}{{mathNumThree}}=？</text>
+  </view>
+
+ <!--the third-->
+  <view class="thirdv">
+ 
+    <view class='thdfv'>
+        <view class='thdflv' bindtap ='onclick' data-num='{{mathCheckNum[0]}}'><text class='textS1'>{{mathCheckNum[0]}}</text></view>  
+        <view class='thdfrv' bindtap ='onclick' data-num='{{mathCheckNum[3]}}' ><text class='textS1'>{{mathCheckNum[3]}}</text></view>
+    </view> 
+  <view class='thdsv'>
+        <view class='thdflv' bindtap ='onclick' data-num='{{mathCheckNum[1]}}'><text class='textS1'>{{mathCheckNum[1]}}</text></view>  
+        <view class='thdfrv' bindtap ='onclick' data-num='{{mathCheckNum[2]}}' ><text class='textS1'>{{mathCheckNum[2]}}</text></view>
+  </view> 
+</view>
+  <!--the last  btu-->
+<button   bindtap='exitbtu'  class= 'button' type="primary" > 退出 </button>
+</view>
