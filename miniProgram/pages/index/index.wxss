@@ -1,0 +1,284 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding:  0;
+  background-color: #dde0c8;
+} 
+#firstv{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0rpx
+}
+.flv{
+  display: block;
+  width: 250rpx;
+  height: 200rpx;
+  color: #000f00;
+  justify-content: flex-start;
+  align-content: flex-start;
+  font-size: 20px;
+}
+.flvtText{
+  color: red;
+
+}
+.fmdText{
+    color:green;
+}
+.frv{
+  justify-content: flex-start;
+
+  width: 250rpx;
+  height: 200rpx;
+  color: #000f00;
+  font-size: 20px;
+  text-align: right;
+  flex-direction: column;
+  margin-left: 500rpx;
+  position: absolute;
+  white-space: nowrap;/*文本溢出处理*/
+  
+
+
+  
+}
+
+.secondv{
+  display: block;
+  width: 100%;
+  height: 180rpx;
+  color: #000f00;
+  flex-wrap: nowrap;/*解决撑破问题*/
+}
+.textSs{
+
+  height: 150rpx;
+  display:flex;
+  color:#000f00;
+  font-size:90rpx;
+  margin-left: 100rpx;
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 50rpx;
+  
+}
+.thirdv{
+  width: 100%;
+  height: 700rpx;
+  display: block;
+  flex-direction:column;
+  margin-top: 80rpx;
+}
+.thdfv{
+  width: 100%;
+  height: 350rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+
+  }
+  .thdflv{
+  width: 50%;
+  height: 350rpx;
+  display: block;
+  background-color:#bbada0; 
+  border: solid #fff000 1px;
+  align-content: flex-start;
+  flex-direction: row;
+
+  }
+.textS1{
+margin-top: 100rpx;
+justify-content: center;
+align-items: center;/*内容居中*/
+display: flex;
+color:#FFFFFF;
+font-size:100rpx;
+flex-wrap: nowrap;/* 解决撑破问题  */
+}
+
+  .thdfrv{
+  width: 50%;
+  height: 350rpx;
+  display: block;
+   background-color:#bbada0; 
+   border: solid #fff000 1px;
+  }
+  .thdsv{
+  width: 100%;
+  height: 350rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+
+  }
+  /** 修改button默认的点击态样式类**/
+.button {
+  margin-top: 40rpx;
+  width: 100%;
+  height: 100rpx;
+  font-size: 40rpx;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding:  0;
+  background-color: #dde0c8;
+} 
+#firstv{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding: 0rpx
+}
+.flv{
+  display: block;
+  width: 250rpx;
+  height: 200rpx;
+  color: #000f00;
+  justify-content: flex-start;
+  align-content: flex-start;
+  font-size: 20px;
+}
+.flvtText{
+  color: red;
+
+}
+.frv{
+  justify-content: flex-start;
+
+  width: 250rpx;
+  height: 200rpx;
+  color: #000f00;
+  font-size: 20px;
+  text-align: right;
+  flex-direction: column;
+  margin-left: 500rpx;
+  position: absolute;
+  white-space: nowrap;/*文本溢出处理*/
+  
+
+
+  
+}
+
+.secondv{
+  display: block;
+  width: 100%;
+  height: 180rpx;
+  color: #000f00;
+  flex-wrap: nowrap;/*解决撑破问题*/
+}
+.textSs{
+
+  height: 150rpx;
+  display:flex;
+  color:#000f00;
+  font-size:90rpx;
+  margin-left: 100rpx;
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 50rpx;
+  
+}
+.thirdv{
+  width: 100%;
+  height: 700rpx;
+  display: block;
+  flex-direction:column;
+  margin-top: 80rpx;
+}
+.thdfv{
+  width: 100%;
+  height: 350rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+
+  }
+  .thdflv{
+  width: 50%;
+  height: 350rpx;
+  display: block;
+  background-color:#bbada0; 
+  border: solid #fff000 1px;
+  align-content: flex-start;
+  flex-direction: row;
+
+  }
+.textS1{
+margin-top: 100rpx;
+justify-content: center;
+align-items: center;/*内容居中*/
+display: flex;
+color:#FFFFFF;
+font-size:100rpx;
+flex-wrap: nowrap;/* 解决撑破问题  */
+}
+
+  .thdfrv{
+  width: 50%;
+  height: 350rpx;
+  display: block;
+   background-color:#bbada0; 
+   border: solid #fff000 1px;
+  }
+  .thdsv{
+  width: 100%;
+  height: 350rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+
+  }
+  /** 修改button默认的点击态样式类**/
+.button {
+  margin-top: 40rpx;
+  width: 100%;
+  height: 100rpx;
+  font-size: 40rpx;
+
+}
